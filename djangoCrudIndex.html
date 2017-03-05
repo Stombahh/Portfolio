@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Tommi Ilvonen">
+    
+
+    <title>Tommi Ilvonen Portfolio</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery & Bootstrap CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Passion+One|Racing+Sans+One" rel="stylesheet">
+	
+  </head>
+  
+  
+    <body id="myPage" data-spy="scroll" data-target=".navbar">
+        <nav class="navbar navbar-fixed-top navbar-inverse" id="nav1" style="border-radius:0">
+          <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand">Welcome to Django CRUD!</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://tommiilvonen.com/">BACK TO MAINPAGE</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <p>huehue</p>
+        <footer class="container text-center" style="position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>To top</a></p>
+   <a href="https://github.com/Stombahh" class="btn btn-social-icon btn-github">
+    <span class="fa fa-github"></span></a>
+	<a href="https://fi.linkedin.com/in/tommiilvonen" class="btn btn-social-icon btn-linkedin">
+    <span class="fa fa-linkedin"></a>
+	<a href="https://www.facebook.com/tommi.ilvonen.3" class="btn btn-social-icon btn-facebook">
+    <span class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/stombahh/" class="btn btn-social-icon btn-instagram">
+    <span class="fa fa-instagram"></a>
+    <a href="https://twitter.com/tommiilvonen" class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></a>
+	<br>
+	<br>
+  Copyright &copy;  2017 Tommi Ilvonen
+</footer>
+        <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+    </body>
+</html>
