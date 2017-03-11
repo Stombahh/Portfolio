@@ -48,7 +48,7 @@
 	position:absolute;
 	top:0;
 	left:0;
-	width:110px;
+	width:170px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -484,15 +484,10 @@
     background-color: #FFF;
 }
 
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
 
-/********************************/
+
 /*       Fade Bs-carousel       */
-/********************************/
+
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -511,9 +506,9 @@ Image credits: unsplash.com
   background-color:#14678E;
 }
 
-/********************************/
+
 /*          Projects Headers        */
-/********************************/
+
 .projects {
     position: absolute;
     top: 50%;
@@ -552,9 +547,9 @@ Image credits: unsplash.com
             transition: 2s all ease-in-out .1s;    
 }
 
-/********************************/
+
 /*            Overlay           */
-/********************************/
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -564,18 +559,18 @@ Image credits: unsplash.com
     opacity: .3;
 }
 
-/********************************/
+
 /*          Custom Buttons      */
-/********************************/
+
 .btn.btn-projects {
 padding: 10px 40px;
 background-color:#14678E;
 }
 
 
-/********************************/
+
 /*       Slides backgrounds     */
-/********************************/
+
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2 {
   height: 100vh;
@@ -592,9 +587,9 @@ background-color:#14678E;
 }
 
 
-/********************************/
+
 /*          Media Queries       */
-/********************************/
+
 @media screen and (min-width: 980px){
     .projects { width: 980px; }    
 }
@@ -637,3 +632,19 @@ background-color:#14678E;
         font-size: 150px;
     }
   }
+
+/* --------------------------------------------------------------------------------------------*/
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+.carouselbox {
+    width:100%;
+    height:100%;
+    margin-top:20px;
+}

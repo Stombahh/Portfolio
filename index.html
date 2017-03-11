@@ -9,6 +9,9 @@
     
 
     <title>Tommi Ilvonen Portfolio</title>
+      
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	
 	<!-- CSS -->
 	<link rel="stylesheet" href="style.css" type="text/css">
@@ -18,6 +21,7 @@
 
 	<!-- jQuery & Bootstrap CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!-- Fonts -->
@@ -27,8 +31,6 @@
   
   
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-
 
 <!-- First Container -->
       
@@ -98,7 +100,7 @@
     <div class="col-sm-8">
       <h2>ABOUT</h2><br>
       <h4>I have a passion for Front-End development because I can visually see the results of my work. I also have experience with Back-End which is important to understand how to bring data to databases. I have my studies nearing completion, so I'm looking for an internship position for half a year. </h4><br>
-      <p>I am by nature a precise, responsible and positive-minded.  My superior described me motivated, own-initiative, interested in learning, a very hard-working and meticulous. I enjoy working with all kinds of people and I like to work in a team or independently. </p>
+      <h4>I am by nature a precise, responsible and positive-minded.  My superior described me motivated, own-initiative, interested in learning, a very hard-working and meticulous. I enjoy working with all kinds of people and I like to work in a team or independently. </h4>
       
     </div>
     <div class="col-sm-4">
@@ -114,59 +116,107 @@
     </div>
     <div class="col-sm-8">
       <h2>LEARNING-FILLED SPRING</h2><br>
-      <h4><strong>School</strong> At the moment, I have two exciting school projects. In Mobile Programming course, we are developing an application for Android, using Apache Cordova framework. The second project is a further development of the Thesis Monitoring Software for Peppi-consortium. The software will be done test-driven using Spring Boot framework. I'm the Scrum Master of our six people team. In addition to the above-mentioned projects, I'm currently working on a Linux server, PHP, and XML-courses.</h4><br>
-      <h4><strong>Free time:</strong> In addition to the school, my spring is going to be a learning-filled with to my own projects. Presently I'm working with my own portfolio, which you are now reading. I constructed the portfolio using HTML, CSS, jQuery and Bootstrap. In Coding Factory recruitment event, I got a good tip that React is a nice thing to master, so I thought to do the training project with React later this spring.</h4>
+      <h4><strong>School:</strong> At the moment, I have two exciting school projects. In Mobile Programming course, I'm developing an application using React Native framework. The second project is a further development of the Thesis Monitoring Software for Peppi-consortium. The software will be done test-driven using Spring Boot framework. I'm the Scrum Master of our six people team. In addition to the above-mentioned projects, I'm currently working on a Linux server, PHP, and database management courses.</h4><br>
+      <h4><strong>Free time:</strong> In addition to the school, my spring is learning-filled with to my own projects. Presently I'm working with my own portfolio, which you are now reading. I constructed the portfolio using HTML, CSS, jQuery, JavaScript and Bootstrap. In Coding Factory recruitment event, I got a good tip that React is a nice thing to master. Therefore I'm doing Mobile Programming course's application also in my free time.</h4>
     </div>
   </div>
 </div>
 
 <!-- Container (My Skills Section) -->
 <div id="myskills" class="container-fluid text-center">
-<div class="col-sm-8 col-sm-offset-2">
-  <h2>MY SKILLS</h2>
-  <h4>tekstiä</h4>
- <div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #14678E;"><span>HTML5</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
+    <div class="col-sm-8 col-sm-offset-2">
+        <h2>MY SKILLS</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+        <ul class="nav nav-pills nav-justified">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><h4>Programming skills</h4></a></li>
+          <li data-target="#myCarousel" data-slide-to="1"><a href="#"><h4>Other skills</h4></a></li>
+        </ul>
+ 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carouselbox">
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #14678E;"><span>CSS3</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #14678E;"><span>Bootstrap</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Bootstrap</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="50%">
-	<div class="skillbar-title" style="background: #14678E;"><span>jQuery</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">50%</div>
-</div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>jQuery</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="50%">
-	<div class="skillbar-title" style="background: #14678E;"><span>Javascript</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">50%</div>
-</div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Javascript</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="75%">
-	<div class="skillbar-title" style="background: #14678E;"><span>Java</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Java</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">70%</div>
+                </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="60%">
-	<div class="skillbar-title" style="background: #14678E;"><span>MySQL</span></div>
-	<div class="skillbar-bar" style="background: #14678E;"></div>
-	<div class="skill-bar-percent">60%</div>
-</div> <!-- End Skill Bar -->
-</div>
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>MySQL</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div><!-- End Item -->
+
+             <div class="item">
+                <div class="carouselbox">
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Scrum</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">100%</div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Project Management</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Git</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Apache2</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #14678E;"><span>Linux</span></div>
+                    <div class="skillbar-bar" style="background: #14678E;"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div><!-- End Item -->     
+          </div><!-- End Carousel Inner -->
+        </div>
+    </div>
 </div>
 
 <!-- Container (Education Section) -->
@@ -354,6 +404,30 @@ $(document).ready(function(){
 </script>
 
 <script>
+    $(document).ready( function() {
+    $('#myCarousel').carousel({
+      
+        interval:   4000
+	});
+	
+	var clickEvent = false;
+	$('#myCarousel').on('click', '.nav a', function() {
+			clickEvent = true;
+			$('.nav li').removeClass('active');
+			$(this).parent().addClass('active');		
+	}).on('slid.bs.carousel', function(e) {
+		if(!clickEvent) {
+			var count = $('.nav').children().length -1;
+			var current = $('.nav li.active');
+			current.removeClass('active').next().addClass('active');
+			var id = parseInt(current.data('slide-to'));
+			if(count == id) {
+				$('.nav li').first().addClass('active');	
+			}
+		}
+		clickEvent = false;
+	});
+});
 
 </script>
 
