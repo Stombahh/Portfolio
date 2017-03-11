@@ -10,6 +10,7 @@
 
     <title>Tommi Ilvonen Portfolio</title>
       
+    <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	
@@ -21,7 +22,6 @@
 
 	<!-- jQuery & Bootstrap CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!-- Fonts -->
@@ -30,39 +30,39 @@
   </head>
   
   
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<!-- First Container -->
-      
+<!-- Mobile Navbar (hidden for desktop resolution) -->  
 <nav class="navbar navbar-fixed-top navbar-inverse" id="nav2" style="border-radius:0">
-  <div class="container">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">Tommi Ilvonen</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://blog.tommiilvonen.com/">BLOG</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#myskills">MY SKILLS</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">Tommi Ilvonen</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://blog.tommiilvonen.com/">BLOG</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#myskills">MY SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+    </div> <!-- Ends container -->
+</nav> 
+    
+<!-- Background image and it's contents -->
 <div class="container-top-fluid text-center bg1">
   <h1>Tommi Ilvonen</h1>
   <img src="images/selfie2.jpg" class="img-responsive img-circle margin selfiecircle" style="display:inline" alt="selfie" width="380" height="380">
   <h5>ICT-student, Front-End Developer</h5>
     <a href="https://github.com/Stombahh" class="btn btn-social-icon btn-github">
-    <span class="fa fa-github"></span></a>
+    <span class="fa fa-github"></a>
 	<a href="https://fi.linkedin.com/in/tommiilvonen" class="btn btn-social-icon btn-linkedin">
     <span class="fa fa-linkedin"></a>
 	<a href="https://www.facebook.com/tommi.ilvonen.3" class="btn btn-social-icon btn-facebook">
@@ -71,48 +71,45 @@
     <span class="fa fa-instagram"></a>
     <a href="https://twitter.com/tommiilvonen" class="btn btn-social-icon btn-twitter">
     <span class="fa fa-twitter"></a>
-  
-</div>
+</div> <!-- Ends Background container -->
 
-
-<!-- Navbar -->
-
+<!-- Desktop Navbar (hidden for mobile resolution) -->
 <nav class="navbar navbar-inverse" id="nav1" data-spy="affix" data-offset-top="650" style="border-radius:0">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">Tommi Ilvonen</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://blog.tommiilvonen.com/">BLOG</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#myskills">MY SKILLS</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">Tommi Ilvonen</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://blog.tommiilvonen.com/">BLOG</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#myskills">MY SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+    </div> <!-- Ends Container -->
 </nav>
+        
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
       <h2>ABOUT</h2><br>
-      <h4>I have a passion for Front-End development because I can visually see the results of my work. I also have experience with Back-End which is important to understand how to bring data to databases. I have my studies nearing completion, so I'm looking for an internship position for half a year. </h4><br>
-      <h4>I am by nature a precise, responsible and positive-minded.  My superior described me motivated, own-initiative, interested in learning, a very hard-working and meticulous. I enjoy working with all kinds of people and I like to work in a team or independently. </h4>
-      
+      <h4>I have a passion for Front-End development because I can visually see the results of my work. I also have experience with Back-End which is important to understand how to bring data to databases. I have my studies nearing completion, so I'm looking for an internship position for half a year.</h4><br>
+      <h4>I am by nature a precise, responsible and positive-minded. My superior described me motivated, own-initiative, interested in learning, a very hard-working and meticulous. I enjoy working with all kinds of people. I think that team working is awesome because you learn all the time from your teammates. And if you're stuck with the code, someone can likely help you. In pair coding, both persons fulfill each other's skills.</h4>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo slideanim" id="glyplogo"></span>
     </div>
-  </div>
-</div>
+  </div> <!-- Ends Row -->
+</div> <!-- Ends About section's first container -->
 
 <div class="container-fluid bg-grey">
   <div class="row">
@@ -124,8 +121,8 @@
       <h4><strong>School:</strong> At the moment, I have two exciting school projects. In Mobile Programming course, I'm developing an application using React Native framework. The second project is a further development of the Thesis Monitoring Software for Peppi-consortium. The software will be done test-driven using Spring Boot framework. I'm the Scrum Master of our six people team. In addition to the above-mentioned projects, I'm currently working on a Linux server, PHP, and database management courses.</h4><br>
       <h4><strong>Free time:</strong> In addition to the school, my spring is learning-filled with to my own projects. Presently I'm working with my own portfolio, which you are now reading. I constructed the portfolio using HTML, CSS, jQuery, JavaScript and Bootstrap. In Coding Factory recruitment event, I got a good tip that React is a nice thing to master. Therefore I'm doing Mobile Programming course's application also in my free time.</h4>
     </div>
-  </div>
-</div>
+  </div> <!-- Ends Row -->
+</div> <!-- Ends About section's second container -->
 
 <!-- Container (My Skills Section) -->
 <div id="myskills" class="container-fluid text-center">
@@ -183,11 +180,11 @@
                     <div class="skillbar-bar" style="background: #14678E;"></div>
                     <div class="skill-bar-percent">60%</div>
                 </div> <!-- End Skill Bar -->
-              </div>
+              </div> <!-- End Carousel Box -->
             </div><!-- End Item -->
 
-             <div class="item">
-                <div class="carouselbox">
+            <div class="item">
+              <div class="carouselbox"> <!-- End Carousel Box -->
                 <div class="skillbar clearfix " data-percent="100%">
                     <div class="skillbar-title" style="background: #14678E;"><span>Scrum</span></div>
                     <div class="skillbar-bar" style="background: #14678E;"></div>
@@ -217,159 +214,153 @@
                     <div class="skillbar-bar" style="background: #14678E;"></div>
                     <div class="skill-bar-percent">90%</div>
                 </div> <!-- End Skill Bar -->
-              </div>
-            </div><!-- End Item -->     
-          </div><!-- End Carousel Inner -->
-        </div>
-    </div>
-</div>
+              </div> <!-- End Carousel Box -->
+            </div> <!-- End Item -->     
+          </div> <!-- End Carousel Inner -->
+        </div> <!-- End myCarousel -->
+    </div> <!-- End col-sm -->
+</div> <!-- End Skills section container -->
 
 <!-- Container (Education Section) -->
 <div id="education" class="container-fluid text-center bg-grey">
-<div class="col-sm-8 col-sm-offset-2">
-  <h2>EDUCATION</h2>
-  <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase "></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Haaga-Helia University of Applied Sciences</h4>
-              <p><small class="text-muted">January 2015 - December 2017 (planned) </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>I'm studying my last year of Bachelor of Business Administration degree at the Haaga-Helia University of Applied Sciences. In my studies, I specialize in software development. I have done two software development projects in school and I have two going on.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-education"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Sipoon Lukio</h4>
-			  <p><small class="text-muted">August 2010 - June 2013</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Upper Secondary School</p>
-            </div>
-          </div>
-        </li>
-    </ul>
-  
-</div>
-</div>
+    <div class="col-sm-8 col-sm-offset-2">
+        <h2>EDUCATION</h2>
+        <ul class="timeline">
+            <li>
+              <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase "></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Haaga-Helia University of Applied Sciences</h4>
+                  <p><small class="text-muted">January 2015 - December 2017 (planned) </small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>I'm studying my last year of Bachelor of Business Administration degree at the Haaga-Helia University of Applied Sciences. In my studies, I specialize in software development. I have done two software development projects in school and I have two going on.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><i class="glyphicon glyphicon-education"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Sipoon Lukio</h4>
+                  <p><small class="text-muted">August 2010 - June 2013</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Upper Secondary School</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+    </div> <!-- End col-sm -->
+</div> <!-- End Education section container -->
 
 <!-- Container (Projects Section) -->
 <div id="projects" class="container-fluid">
-  <div class="text-center">
-    <h2>PROJECTS</h2>
-  
-    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+    <div class="text-center">
+        <h2>PROJECTS</h2>
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
  
+          <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#bs-carousel" data-slide-to="1"></li>]
+            </ol>
 
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#bs-carousel" data-slide-to="1"></li>
-    
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-	 <!-- Overlay -->
-  <div class="overlay"></div>
-      <div class="slide-1" alt="first slide"></div>
-      <div class="projects">
-        <hgroup>
-            <h1>Timetracking-software</h1>        
-            <h3>See all the features in the demo</h3>
-        </hgroup>
-        <a href="http://tommiilvonen.com:8080/tuntikirjanpito_demo/" class="btn btn-primary" role="button">Try the Demo!</a>
-      </div>
-    </div>
-    <div class="item slides">
-	 <!-- Overlay -->
-  <div class="overlay"></div>
-      <div class="slide-2" alt="second slide"></div>
-      <div class="projects">        
-        <hgroup>
-            <h1>Pizzicato</h1>        
-            <h3>See all the features in the demo</h3>
-        </hgroup>       
-        <a href="http://tommiilvonen.com:8080/Pizzicato_6G1C/ListaaPizzatServlet" class="btn btn-primary" role="button">Try the Demo!</a>
-      </div>
-	  
-    </div>
-	
-  </div> 
-  <a class="left carousel-control" href="#bs-carousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
-                        href="#bs-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
-                        </span></a>
-</div>
-</div>
-</div>
+          <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item slides active">
+                <!-- Overlay -->
+                <div class="overlay"></div>
+                <div class="slide-1" alt="first slide"></div>
+                    <div class="projects">
+                        <hgroup>
+                            <h1>Timetracking-software</h1>        
+                            <h3>See all the features in the demo</h3>
+                        </hgroup>
+                        <a href="http://tommiilvonen.com:8080/tuntikirjanpito_demo/" class="btn btn-primary" role="button">Try the Demo!</a>
+                    </div>
+                </div>
+                <div class="item slides">
+                <!-- Overlay -->
+                <div class="overlay"></div>
+                <div class="slide-2" alt="second slide"></div>
+                    <div class="projects">        
+                    <hgroup>
+                        <h1>Pizzicato</h1>        
+                        <h3>See all the features in the demo</h3>
+                    </hgroup>       
+                    <a href="http://tommiilvonen.com:8080/Pizzicato_6G1C/ListaaPizzatServlet" class="btn btn-primary" role="button">Try the Demo!</a>
+                    </div>
+                </div> <!-- End Item Slides -->
+            </div> <!-- End Carousel-Inner -->
+            <a class="left carousel-control" href="#bs-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#bs-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div> <!-- End Project carousel -->
+    </div> <!-- End text-center container -->
+</div> <!-- End Projects section container -->
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact me and I'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Finland, Helsinki</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +358 451125005</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> tommi.ilvonen@gmail.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" disabled>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" disabled>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Contact section is coming soon!" rows="5" disabled></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>Contact me and I'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Finland, Helsinki</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +358 451125005</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> tommi.ilvonen@gmail.com</p>
+        </div> <!-- End contact info col-sm -->
+        <div class="col-sm-7 slideanim">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" disabled>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" disabled>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Contact section is coming soon!" rows="5" disabled></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+            </div>
+        </div> <!-- End Contact form col-sm -->
+    </div> <!-- End Row -->
+</div> <!-- End Contact section container -->
 
-
-
+<!-- Footer (Footer Section) -->
 <footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>To top</a></p>
-   <a href="https://github.com/Stombahh" class="btn btn-social-icon btn-github">
-    <span class="fa fa-github"></span></a>
-	<a href="https://fi.linkedin.com/in/tommiilvonen" class="btn btn-social-icon btn-linkedin">
+    <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span></a>
+    <p>To top</a></p>
+    <a href="https://github.com/Stombahh" class="btn btn-social-icon btn-github">
+    <span class="fa fa-github"></a>
+    <a href="https://fi.linkedin.com/in/tommiilvonen" class="btn btn-social-icon btn-linkedin">
     <span class="fa fa-linkedin"></a>
-	<a href="https://www.facebook.com/tommi.ilvonen.3" class="btn btn-social-icon btn-facebook">
+    <a href="https://www.facebook.com/tommi.ilvonen.3" class="btn btn-social-icon btn-facebook">
     <span class="fa fa-facebook"></a>
-	<a href="https://www.instagram.com/stombahh/" class="btn btn-social-icon btn-instagram">
+    <a href="https://www.instagram.com/stombahh/" class="btn btn-social-icon btn-instagram">
     <span class="fa fa-instagram"></a>
     <a href="https://twitter.com/tommiilvonen" class="btn btn-social-icon btn-twitter">
     <span class="fa fa-twitter"></a>
-	<br>
-	<br>
-  Copyright &copy;  2017 Tommi Ilvonen
+    <br>
+    <br>
+    Copyright &copy;  2017 Tommi Ilvonen
 </footer>
 
+<!-- Script Section -->
 
-
-<script>jQuery(document).ready(function(){
+<script>
+jQuery(document).ready(function(){
 	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({
 			width:jQuery(this).attr('data-percent')
 		},6000);
 	});
-});</script>
+});
+</script>
 
 <script>
 $(document).ready(function(){
@@ -408,11 +399,12 @@ $(document).ready(function(){
 })
 </script>
 
+<!--- Skills carousel -->
 <script>
-    $(document).ready( function() {
+$(document).ready( function() {
     $('#myCarousel').carousel({
       
-        interval:   4000
+        interval:   10000
 	});
 	
 	var clickEvent = false;
@@ -433,9 +425,7 @@ $(document).ready(function(){
 		clickEvent = false;
 	});
 });
-
 </script>
 
 </body>
- 
 </html>
